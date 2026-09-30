@@ -53,7 +53,7 @@ spec:
       name: Publish
       action: publish:github
       input:
-        description: This is ${{ parameters.name }}
+        description: This is ${{ parameters.name }} of Aram
         repoUrl: ${{ parameters.repoUrl }}
         defaultBranch: 'main'
 
